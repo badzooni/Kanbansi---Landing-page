@@ -1,0 +1,26 @@
+.drop-btn {
+  margin-left: 30px;
+  border-radius: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 85px;
+  height: 30px;
+  background-color: $green-10;
+  border: none;
+  i {
+    margin-left: 10px;
+    color: $gray-blue;
+  }
+  .nav-drop-text {
+    color: $gray-blue;
+  }
+  &::after {
+    display: none;
+  }
+  &:hover {
+    background-color: $green-10;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}

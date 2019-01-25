@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="7px" viewBox="0 0 11 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-295.000000, -43.000000)" fill="#647C8A">
+            <g id="Header">
+                <g id="Navigation">
+                    <g id="language" transform="translate(240.000000, 31.000000)">
+                        <polygon id="Shape" points="56.2 12 60.1428571 15.9428571 64.0857143 12 65.2857143 13.2 60.1428571 18.3428571 55 13.2"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

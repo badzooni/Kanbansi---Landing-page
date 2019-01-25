@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Muli-Regular;
+  src: url("../fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+  font-family: Muli-Bold;
+  src: url("../fonts/NunitoSans-Bold.ttf");
+}
+@font-face {
+  font-family: Muli-Semibold;
+  src: url("../fonts/NunitoSans-SemiBold.ttf");
+}
+
+body {
+  background-color: $white;
+
+}
+h1 {
+  font-family: 'NunitoSans-Regular', sans-serif;
+  font-size: $size-22;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: $gray-blue;
+}
+h2 {
+  font-family: 'NunitoSans-Regular', sans-serif;
+  font-size: $size-20;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: $gray-blue;
+
+  //span{
+  //  font-weight: $weight-normal;
+  //}
+}
+h3 {
+  font-family: 'NunitoSans-Regular', sans-serif;
+  font-size: $size-18;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: $gray-blue;
+}
+h4 {
+  font-family: 'NunitoSans-Regular', sans-serif;
+  font-size: $size-16;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: $gray-blue;
+}
+h5 {
+  font-family: 'NunitoSans-Regular', sans-serif;
+  font-size: $size-14;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: $gray-blue;
+}
+h6 {
+  font-family: 'NunitoSans-Regular', sans-serif;
+  font-size: $size-12;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: $gray-blue;
+
+}

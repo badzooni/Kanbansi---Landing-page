@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="16px" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Chevron_Right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="User-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UG-Step---1" transform="translate(-433.000000, -946.000000)" fill="#354052">
+            <g id="ver-2" transform="translate(0.000000, 693.000000)">
+                <g id="left" transform="translate(418.000000, 241.000000)">
+                    <path d="M15.4336764,20.5647137 L22.6235188,27.752166 C22.9390042,28.0668548 23.4501412,28.0668548 23.7664233,27.752166 C24.0819088,27.4374772 24.0819088,26.9263402 23.7664233,26.6116515 L17.1468715,19.9944896 L23.7656267,13.3773278 C24.0811121,13.062639 24.0811121,12.5515021 23.7656267,12.2360166 C23.4501412,11.9213278 22.9382076,11.9213278 22.6227221,12.2360166 L15.4328798,19.4234025 C15.1222408,19.7348382 15.1222408,20.2540083 15.4336764,20.5647137 Z" id="Chevron_Right"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
