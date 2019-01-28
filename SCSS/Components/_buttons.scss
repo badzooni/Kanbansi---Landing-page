@@ -1,0 +1,32 @@
+.btn-right-nav {
+  margin-left: 20px;
+  height: $size-42;
+  border-radius: $size-20;
+
+  &--gray {
+    min-width: 101px;
+    background-color: $gray-10;
+    color: $gray-70;
+    font-weight: $font-600;
+    &:hover {
+      background-color: $gray-80;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  &--blue {
+    min-width: 167px;
+    box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
+    background-color: $blue-10;
+    color: $white-10;
+    margin-right: 50px;
+    &:hover {
+      background-color: $blue-30;
+      color: $white-10;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

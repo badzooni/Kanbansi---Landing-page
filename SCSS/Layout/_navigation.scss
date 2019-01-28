@@ -1,0 +1,15 @@
+.kan-logo {
+  margin-left: 50px;
+}
+.right-nav-detail {
+  margin-left: 40px;
+  font-weight: $font-bold;
+  color: $gray-70;
+  &:hover {
+    color: $green-30;
+    text-decoration: none;
+  }
+  &:focus {
+    color: $green-30;
+  }
+}

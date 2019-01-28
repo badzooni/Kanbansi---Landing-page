@@ -7543,28 +7543,88 @@ h6 {
   line-height: normal;
   color: #647c8a; }
 
-.kan-logo {
-  margin-left: 50px; }
+.btn-right-nav {
+  margin-left: 20px;
+  height: 2.625rem;
+  border-radius: 1.25rem; }
+  .btn-right-nav--gray {
+    min-width: 101px;
+    background-color: #eceff1;
+    color: #354052;
+    font-weight: 600; }
+    .btn-right-nav--gray:hover {
+      background-color: #e0e5e8; }
+    .btn-right-nav--gray:focus {
+      box-shadow: none; }
+  .btn-right-nav--blue {
+    min-width: 167px;
+    box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
+    background-color: #0080ff;
+    color: #fff;
+    margin-right: 50px; }
+    .btn-right-nav--blue:hover {
+      background-color: #0076eb;
+      color: #fff; }
+    .btn-right-nav--blue:focus {
+      box-shadow: none; }
 
-.drop-btn {
+.dropdown-language .drop-btn {
   margin-left: 30px;
   border-radius: 14px;
-  padding-left: 20px;
-  padding-right: 20px;
   min-width: 85px;
   height: 30px;
   background-color: #e1f8f7;
-  border: none; }
-  .drop-btn i {
-    margin-left: 10px;
-    color: #647c8a; }
-  .drop-btn .nav-drop-text {
-    color: #647c8a; }
-  .drop-btn::after {
-    display: none; }
-  .drop-btn:hover {
+  border: none;
+  position: relative; }
+  .dropdown-language .drop-btn:active {
     background-color: #e1f8f7; }
-  .drop-btn:focus {
+  .dropdown-language .drop-btn i {
+    position: absolute;
+    top: 28%;
+    left: 68%;
+    color: #647c8a; }
+  .dropdown-language .drop-btn .nav-drop-text {
+    color: #647c8a;
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    font-weight: bold;
+    font-size: 0.875rem; }
+  .dropdown-language .drop-btn::after {
+    display: none; }
+  .dropdown-language .drop-btn:hover {
+    background-color: #e1f8f7; }
+  .dropdown-language .drop-btn:focus {
     box-shadow: none; }
+.dropdown-language button[aria-expanded="true"] {
+  background-color: #e1f8f7;
+  border-radius: 0.875rem 0.875rem 0px 0px; }
+.dropdown-language i[aria-expanded="true"] {
+  transform: rotate(180deg); }
+.dropdown-language .dropdown-menu-language {
+  min-width: 75%;
+  position: absolute;
+  top: 100%;
+  left: 26%;
+  border: none;
+  background-color: #e1f8f7;
+  border-radius: 0px 0px 0.875rem 0.875rem; }
+  .dropdown-language .dropdown-menu-language .dropdown-item {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #647c8a; }
+
+.kan-logo {
+  margin-left: 50px; }
+
+.right-nav-detail {
+  margin-left: 40px;
+  font-weight: bold;
+  color: #354052; }
+  .right-nav-detail:hover {
+    color: #0dccbe;
+    text-decoration: none; }
+  .right-nav-detail:focus {
+    color: #0dccbe; }
 
 /*# sourceMappingURL=custom.css.map */
