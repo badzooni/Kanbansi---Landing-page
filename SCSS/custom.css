@@ -7478,13 +7478,13 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 @font-face {
-  font-family: Muli-Regular;
+  font-family: Nunito-Regular;
   src: url("../fonts/NunitoSans-Regular.ttf"); }
 @font-face {
-  font-family: Muli-Bold;
+  font-family: Nunito-Bold;
   src: url("../fonts/NunitoSans-Bold.ttf"); }
 @font-face {
-  font-family: Muli-Semibold;
+  font-family: Nunito-Semibold;
   src: url("../fonts/NunitoSans-SemiBold.ttf"); }
 body {
   background-color: #fff; }
@@ -7543,8 +7543,19 @@ h6 {
   line-height: normal;
   color: #647c8a; }
 
+.kanb-overview h1 {
+  font-size: 3rem;
+  color: #354052;
+  font-weight: 600;
+  font-family: 'Nunito-Semibold', sans-serif; }
+.kanb-overview h2 {
+  font-size: 1.375rem;
+  font-family: 'Nunito-Regular', sans-serif;
+  color: #647c8a; }
+
 .btn-right-nav {
-  margin-left: 20px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
   height: 2.625rem;
   border-radius: 1.25rem; }
   .btn-right-nav--gray {
@@ -7560,13 +7571,33 @@ h6 {
     min-width: 167px;
     box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
     background-color: #0080ff;
-    color: #fff;
-    margin-right: 50px; }
+    color: #fff; }
     .btn-right-nav--blue:hover {
       background-color: #0076eb;
       color: #fff; }
     .btn-right-nav--blue:focus {
       box-shadow: none; }
+
+.btn-overview {
+  min-width: 182px;
+  height: 60px;
+  border-radius: 0.25rem;
+  font-size: 1.125rem; }
+  .btn-overview--blue {
+    color: #fff;
+    background-color: #0080ff;
+    box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
+    font-family: 'Nunito-Semibold', sans-serif; }
+    .btn-overview--blue:hover {
+      background-color: #0076eb;
+      color: #fff; }
+    .btn-overview--blue:focus {
+      box-shadow: none; }
+  .btn-overview--gray {
+    background-color: #eceff1;
+    color: #354052;
+    font-family: 'Nunito-Semibold', sans-serif;
+    font-weight: 600; }
 
 .dropdown-language .drop-btn {
   margin-left: 30px;
@@ -7589,7 +7620,8 @@ h6 {
     top: 12%;
     left: 27%;
     font-weight: bold;
-    font-size: 0.875rem; }
+    font-size: 0.875rem;
+    font-family: 'Nunito-Bold', sans-serif; }
   .dropdown-language .drop-btn::after {
     display: none; }
   .dropdown-language .drop-btn:hover {
@@ -7612,19 +7644,34 @@ h6 {
   .dropdown-language .dropdown-menu-language .dropdown-item {
     font-weight: bold;
     font-size: 0.875rem;
-    color: #647c8a; }
+    color: #647c8a;
+    font-family: 'Nunito-Bold', sans-serif; }
 
-.kan-logo {
-  margin-left: 50px; }
+.kanban-nav {
+  margin-bottom: 146px; }
+  .kanban-nav a {
+    font-family: 'Nunito-Bold', sans-serif; }
+  .kanban-nav .kan-logo {
+    margin-left: 50px; }
+  .kanban-nav .right-nav-detail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    font-weight: bold;
+    color: #354052; }
+    .kanban-nav .right-nav-detail:hover {
+      color: #0dccbe;
+      text-decoration: none; }
+    .kanban-nav .right-nav-detail:focus {
+      color: #0dccbe; }
 
-.right-nav-detail {
-  margin-left: 40px;
-  font-weight: bold;
-  color: #354052; }
-  .right-nav-detail:hover {
-    color: #0dccbe;
-    text-decoration: none; }
-  .right-nav-detail:focus {
-    color: #0dccbe; }
+@media (max-width: 991.98px) {
+  .right-nav-detail {
+    margin-left: 28px; }
+
+  .btn-right-nav {
+    min-width: 167px;
+    margin-left: 2.25rem !important; }
+    .btn-right-nav--blue {
+      margin-top: 10px !important; } }
 
 /*# sourceMappingURL=custom.css.map */

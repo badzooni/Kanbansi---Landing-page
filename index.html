@@ -16,7 +16,7 @@
 <body class="kanban-first">
 
 
-<nav class="navbar navbar-expand-lg navbar-light kanban-nav ">
+<nav class="navbar navbar-expand-lg navbar-light kanban-nav py-4 p-0 d-flex justify-content-end pr-3">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,8 +26,6 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active d-flex align-items-center">
                 <img class="kan-logo" src="images/kanbansi-logo.svg" alt="logo">
-            </li>
-            <li class="nav-item">
                 <div class="dropdown dropdown-language mb-0">
                     <button class="btn dropdown-toggle drop-btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="nav-drop-text">Eng</span>
@@ -42,17 +40,32 @@
                 </div>
             </li>
         </ul>
-        <div class="right-nav d-flex justify-content-end align-items-center">
-            <a href="#" class="right-nav-detail active">Home</a>
-            <a href="#" class="right-nav-detail">Tour</a>
-            <a href="#" class="right-nav-detail">Pricing</a>
-            <a href="#" class="right-nav-detail">About</a>
-            <button type="button" class="btn btn-right-nav btn-right-nav--gray">Login</button>
-            <button type="button" class="btn btn-right-nav btn-right-nav--blue">Start Free Trial</button>
-        </div>
+
+            <a href="#" class="nav-item nav-link right-nav-detail">Home</a>
+            <a href="#" class="nav-item nav-link right-nav-detail">Tour</a>
+            <a href="#" class="nav-item nav-link right-nav-detail">Pricing</a>
+            <a href="#" class="nav-item nav-link right-nav-detail">About</a>
+            <button type="button" class="nav-item nav-link btn btn-right-nav btn-right-nav--gray">Login</button>
+            <button type="button" class="nav-item nav-link btn btn-right-nav btn-right-nav--blue ml-0">Start Free Trial</button>
+
     </div>
 </nav>
-
+<!--BODY-->
+<div class="container">
+    <div class="row p-3 kanb-overview">
+        <div class="col-6">
+            <h1 class="pr-2 mb-0">The Perfect overview of your projects</h1>
+            <h2>An individual may get diabetes when the pancreas can no longer secrete the needed hormones that produce insulin.</h2>
+            <div class="d-flex justify-content-around">
+            <button type="button" class="btn btn-overview btn-overview--blue">Start Free Trial</button>
+            <button type="button" class="btn btn-overview btn-overview--gray">Discover Plans</button>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="images/Video.png">
+        </div>
+    </div>
+</div>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

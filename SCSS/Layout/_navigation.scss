@@ -1,15 +1,25 @@
-.kan-logo {
-  margin-left: 50px;
-}
-.right-nav-detail {
-  margin-left: 40px;
-  font-weight: $font-bold;
-  color: $gray-70;
-  &:hover {
-    color: $green-30;
-    text-decoration: none;
+.kanban-nav {
+margin-bottom: 146px;
+  a {
+    font-family: 'Nunito-Bold', sans-serif;
   }
-  &:focus {
-    color: $green-30;
+  .kan-logo {
+    margin-left: 50px;
+  }
+
+  .right-nav-detail {
+    padding-right: $size-20;
+    padding-left: $size-20;
+    font-weight: $font-bold;
+    color: $gray-70;
+
+    &:hover {
+      color: $green-30;
+      text-decoration: none;
+    }
+
+    &:focus {
+      color: $green-30;
+    }
   }
 }

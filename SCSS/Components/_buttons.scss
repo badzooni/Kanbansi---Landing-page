@@ -1,5 +1,6 @@
 .btn-right-nav {
-  margin-left: 20px;
+  margin-left: $size-20;
+  margin-right: $size-20;
   height: $size-42;
   border-radius: $size-20;
 
@@ -20,7 +21,7 @@
     box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
     background-color: $blue-10;
     color: $white-10;
-    margin-right: 50px;
+
     &:hover {
       background-color: $blue-30;
       color: $white-10;
@@ -28,5 +29,31 @@
     &:focus {
       box-shadow: none;
     }
+  }
+}
+
+.btn-overview {
+  min-width: 182px;
+  height: 60px;
+  border-radius: $size-4;
+  font-size: $size-18;
+  &--blue {
+    color: $white;
+    background-color: $blue-10;
+    box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
+    font-family: 'Nunito-Semibold', sans-serif;
+    &:hover {
+      background-color: $blue-30;
+      color: $white-10;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  &--gray {
+    background-color: $gray-10;
+    color: $gray-70;
+    font-family: 'Nunito-Semibold', sans-serif;
+    font-weight: $font-600;
   }
 }
