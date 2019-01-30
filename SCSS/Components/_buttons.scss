@@ -42,6 +42,7 @@
     background-color: $blue-10;
     box-shadow: 0 3px 8px 0 rgba(0, 128, 255, 0.31);
     font-family: 'Nunito-Semibold', sans-serif;
+
     &:hover {
       background-color: $blue-30;
       color: $white-10;
@@ -55,5 +56,33 @@
     color: $gray-70;
     font-family: 'Nunito-Semibold', sans-serif;
     font-weight: $font-600;
+    margin-left: $size-20;
+    &:hover {
+      background-color: $gray-80;
+
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+.video-btn {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: $green-30;
+  opacity: 0.75;
+&:focus {
+  box-shadow: none;
+}
+  &:hover {
+    opacity: 1;
+    transition: 0.7s;
+  }
+  .video-play {
+    color: $white-10;
   }
 }

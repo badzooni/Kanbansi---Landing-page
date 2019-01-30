@@ -4,11 +4,83 @@
     color: $gray-70;
     font-weight: $font-600;
     font-family: 'Nunito-Semibold', sans-serif;
+    margin-bottom: $size-20;
   }
   h2 {
     font-size: $size-22;
     font-family: 'Nunito-Regular', sans-serif;
     color: $gray-blue;
+    margin-bottom: $size-40;
 
+  }
+}
+//Video section
+
+.video-box {
+  border-radius: $size-10;
+  width: 100%;
+  height: auto;
+  position: relative;
+  .video-img {
+   width: 100%;
+    height: auto;
+  }
+  .video-gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.15;
+    background-image: linear-gradient(to bottom, rgba(30, 232, 224, 0), #0dccbe);
+  }
+}
+.kb-section {
+  padding-top: 85px;
+  padding-bottom: 140px;
+  background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0), #eceff1);
+  h2 {
+    color: $gray-70;
+    font-family: 'Nunito-Semibold', sans-serif;
+    font-weight: $font-600;
+    text-align: center;
+    font-size: $size-30;
+  }
+  h3 {
+    font-family: 'Nunito-Semibold', sans-serif;
+    font-size: $size-20;
+    color: $gray-blue;
+    text-align: center;
+  }
+}
+.kb-card-boxes {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .box-first {
+    padding: 30px;
+    background-color: $white-10;
+    min-width: 325px !important;
+    width: auto;
+    height: 114px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.06);
+    h2 {
+      font-family: 'Nunito-Semibold', sans-serif;
+      font-weight: $font-600;
+      color: $gray-70;
+      float: left;
+    }
+    h4 {
+      color: $gray-50;
+      font-family: 'Nunito-Semibold', sans-serif;
+      float: left;
+    }
+    img {
+      height: 42px;
+      float: left;
+      padding-right: 20px;
+    }
   }
 }
