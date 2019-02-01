@@ -1,44 +1,52 @@
-.kanb-overview {
-  h1 {
-    font-size: $size-48;
-    color: $gray-70;
-    font-weight: $font-600;
-    font-family: 'Nunito-Semibold', sans-serif;
-    margin-bottom: $size-20;
-  }
-  h2 {
-    font-size: $size-22;
-    font-family: 'Nunito-Regular', sans-serif;
-    color: $gray-blue;
-    margin-bottom: $size-40;
+.cont-position {
+  margin-top: 200px;
+  .kanb-overview {
+    h1 {
+      font-size: $size-44;
+      color: $gray-70;
+      font-weight: $font-600;
+      font-family: 'Nunito-Semibold', sans-serif;
+      margin-bottom: $size-20;
+    }
 
-  }
-}
-//Video section
+    h2 {
+      font-size: $size-22;
+      font-family: 'Nunito-Regular', sans-serif;
+      color: $gray-blue;
+      margin-bottom: $size-40;
 
-.video-box {
-  border-radius: $size-10;
-  width: 100%;
-  height: auto;
-  position: relative;
-  .video-img {
-   width: 100%;
+    }
+  }
+
+  //Video section
+
+  .video-box {
+    border-radius: $size-10;
+    width: 100%;
     height: auto;
-  }
-  .video-gradient {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.15;
-    background-image: linear-gradient(to bottom, rgba(30, 232, 224, 0), #0dccbe);
+    position: relative;
+
+    .video-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .video-gradient {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.15;
+      background-image: linear-gradient(to bottom, rgba(30, 232, 224, 0), #0dccbe);
+    }
   }
 }
 .kb-section {
   padding-top: 85px;
   padding-bottom: 140px;
   background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0), #eceff1);
+  position: relative;
   h2 {
     color: $gray-70;
     font-family: 'Nunito-Semibold', sans-serif;
@@ -70,17 +78,46 @@
       font-family: 'Nunito-Semibold', sans-serif;
       font-weight: $font-600;
       color: $gray-70;
-      float: left;
+      text-align: left;
+      font-size: $size-20;
     }
     h4 {
       color: $gray-50;
       font-family: 'Nunito-Semibold', sans-serif;
-      float: left;
+      font-size: $size-16;
     }
     img {
       height: 42px;
       float: left;
       padding-right: 20px;
+    }
+  }
+}
+.nortification-kb {
+  width: 331px;
+  height: 88px;
+  background-color: $green-30;
+  padding: $size-20;
+  position: fixed;
+  bottom: $size-28;
+  right: $size-28;
+  border-radius: $size-8;
+h4 {
+  padding-right: $size-20;
+  color: $white-10;
+}
+  .close-circle {
+    border: 2px solid $white;
+    width: 34px;
+    height: 24px;
+    position: relative;
+    border-radius: 12px;
+    cursor: pointer;
+    i {
+      position: absolute;
+      bottom: 2px;
+      left: 3px;
+      color: $white-10;
     }
   }
 }

@@ -1,6 +1,5 @@
 .btn-right-nav {
   margin-left: $size-20;
-  margin-right: $size-20;
   height: $size-42;
   border-radius: $size-20;
 
@@ -9,6 +8,7 @@
     background-color: $gray-10;
     color: $gray-70;
     font-weight: $font-600;
+    margin-right: $size-20;
     &:hover {
       background-color: $gray-80;
     }

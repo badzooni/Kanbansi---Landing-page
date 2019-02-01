@@ -1,10 +1,12 @@
 .kanban-nav {
-margin-bottom: 146px;
+position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: $white-10;
+  top: 0;
+  padding: 27px 42px;
   a {
     font-family: 'Nunito-Bold', sans-serif;
-  }
-  .kan-logo {
-    margin-left: 50px;
   }
 
   .right-nav-detail {
