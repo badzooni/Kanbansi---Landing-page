@@ -7626,7 +7626,8 @@ h6 {
   position: fixed;
   bottom: 1.75rem;
   right: 1.75rem;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  z-index: 1; }
   .nortification-kb h4 {
     padding-right: 1.25rem;
     color: #fff; }
@@ -7642,6 +7643,38 @@ h6 {
       bottom: 2px;
       left: 3px;
       color: #fff; }
+
+.litlle-big-main {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px; }
+  .litlle-big-main h1 {
+    font-size: 2.75rem;
+    font-weight: 600;
+    color: #354052;
+    font-family: 'Nunito-Semibold', sans-serif; }
+  .litlle-big-main h2 {
+    font-family: 'Nunito-Regular', sans-serif;
+    font-size: 1.375rem; }
+    .litlle-big-main h2 a {
+      color: #0080ff; }
+      .litlle-big-main h2 a:hover {
+        color: #0056b3; }
+
+.little-big-card {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .little-big-card img {
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 20px; }
+  .little-big-card h2 {
+    font-family: 'Nunito-Semibold', sans-serif;
+    font-weight: 600;
+    color: #354052;
+    margin-bottom: 10px; }
+  .little-big-card h3 {
+    line-height: 1.67; }
 
 .btn-right-nav {
   margin-left: 1.25rem;
