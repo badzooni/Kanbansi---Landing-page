@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="20px" viewBox="0 0 4 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="New-Application-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Board-SV-[Normal]-Minimize-release" transform="translate(-428.000000, -289.000000)" fill="#354052">
+            <g id="Private-boards_ver-2" transform="translate(50.000000, 190.000000)">
+                <g id="card" transform="translate(30.000000, 77.000000)">
+                    <path d="M350,26 C348.895431,26 348,25.1045695 348,24 C348,22.8954305 348.895431,22 350,22 C351.104569,22 352,22.8954305 352,24 C352,25.1045695 351.104569,26 350,26 Z M350,34 C348.895431,34 348,33.1045695 348,32 C348,30.8954305 348.895431,30 350,30 C351.104569,30 352,30.8954305 352,32 C352,33.1045695 351.104569,34 350,34 Z M350,42 C348.895431,42 348,41.1045695 348,40 C348,38.8954305 348.895431,38 350,38 C351.104569,38 352,38.8954305 352,40 C352,41.1045695 351.104569,42 350,42 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

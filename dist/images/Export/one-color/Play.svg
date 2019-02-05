@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1222.000000, -395.000000)" fill="#354052">
+            <g id="Header">
+                <g id="Main-content" transform="translate(405.000000, 226.000000)">
+                    <g id="Video" transform="translate(540.000000, 0.000000)">
+                        <g id="play-button" transform="translate(235.000000, 128.000000)">
+                            <path d="M44.8988158,41.3858608 C43.2979109,40.4808576 42,41.2222468 42,43.0404766 L42,56.4582115 C42,58.2782568 43.2979109,59.0186848 44.8988158,58.114536 L56.798915,51.3887412 C58.4003617,50.4834176 58.4003617,49.0166588 56.798915,48.1115489 L44.8988158,41.3858608 Z" id="Play"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

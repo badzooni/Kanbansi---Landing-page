@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="68px" viewBox="0 0 70 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>backlog</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-2290.000000, -495.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Icons-(final)" transform="translate(50.000000, 244.000000)">
+                <g id="backlog" transform="translate(2240.714253, 251.000000)">
+                    <path d="M6,6 L6,14 L51,14 L51,6 L6,6 Z M4,0 L53,0 C55.209139,0 57,1.790861 57,4 L57,16 C57,18.209139 55.209139,20 53,20 L4,20 C1.790861,20 0,18.209139 0,16 L0,4 C0,1.790861 1.790861,0 4,0 Z M18,30 L18,38 L63,38 L63,30 L18,30 Z M16,24 L65,24 C67.209139,24 69,25.790861 69,28 L69,40 C69,42.209139 67.209139,44 65,44 L16,44 C13.790861,44 12,42.209139 12,40 L12,28 C12,25.790861 13.790861,24 16,24 Z M6,54 L6,62 L51,62 L51,54 L6,54 Z M4,48 L53,48 C55.209139,48 57,49.790861 57,52 L57,64 C57,66.209139 55.209139,68 53,68 L4,68 C1.790861,68 0,66.209139 0,64 L0,52 C0,49.790861 1.790861,48 4,48 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
